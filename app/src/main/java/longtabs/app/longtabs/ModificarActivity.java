@@ -51,7 +51,7 @@ public class ModificarActivity extends AppCompatActivity {
     }
 
     private void Modificar(int Id, String Nombre, String Apellido){
-    }
+
         BaseHelper helper = new BaseHelper(this, "Demo",null,1);
         SQLiteDatabase db = helper.getWritableDatabase();
 
